@@ -1,4 +1,5 @@
 The code for this project was written by Tamari Geron for university course "Introduction to R".
+
 This project provides a reusable R function to calculate descriptive statistics for data frames. It allows filtering based on a specific range of Subject_ID values and includes error handling for small datasets or missing columns.
 
 # Features
@@ -24,6 +25,7 @@ The filtered dataset contains no rows.
 
 # Project Files
 1. functions.R
+
 Contains the function create_descriptive_stats():
 
 Calculates descriptive statistics for a given data frame.
@@ -31,6 +33,7 @@ Allows filtering of rows based on Subject_ID.
 Returns a data frame summarizing the results
 
 2. analysis.R
+
 Demonstrates how to:
 
 Create a sample dataset (analysis).
